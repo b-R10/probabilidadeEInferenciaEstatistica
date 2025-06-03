@@ -1,0 +1,15 @@
+# install.packages("ggplot2")
+# library(ggplot2)
+# install.packages("esquisse")
+
+alturas<-c(1.5,1.53,1.68,1.51,1.63,1.65,1.54,1.55,1.65,1.56,1.57,1.5,1.6,
+           1.48,1.61,1.52,1.63,1.47,1.52,1.5,1.52,1.46,1.45,1.66,1.65,
+           1.59,1.51,1.58,1.62,1.60)
+
+# criar um dataframe
+df <- data.frame(alturas)
+#View(df)
+
+# histograma
+#ggplot(df, aes(x = alturas)) + geom_histogram()
+ggplot(df, aes(x = alturas)) + geom_histogram() + labs(y="valor") + theme_light()
