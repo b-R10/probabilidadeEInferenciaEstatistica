@@ -13,7 +13,7 @@ Mg <- (18*16*15*17*17)^(1/5)
 Mg1 <- prod(dados)^(1/length(dados))
 
 ### ou
-install.packages("psych")
+#install.packages("psych")
 library(psych)
 geometric.mean(dados)
 
@@ -34,3 +34,22 @@ mean(b)
 
 # summary
 summary(a)
+
+# moda
+## dados brutos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

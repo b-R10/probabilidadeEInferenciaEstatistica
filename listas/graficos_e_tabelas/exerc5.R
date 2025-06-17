@@ -27,9 +27,9 @@ ggplot() +
   geom_point(data = df_segmentos, 
              aes(x = x_end, y = y), 
              shape = 21, size = 2.5, fill = "white") +  # Pontos a direita
-  geom_point(data = dados,
-             aes(x = `salário(x sal. mín.)`, y = valores_y),
-             shape = 4, size = 3, color = "red", stroke = 1.5) + # Pontos reais
+#  geom_point(data = dados,
+ #            aes(x = `salário(x sal. mín.)`, y = valores_y),
+  #           shape = 4, size = 3, color = "red", stroke = 1.5) + # Pontos reais
   labs(title = expression(F[36](s)),
        x = "s",
        y = expression(F[36](s))) +
